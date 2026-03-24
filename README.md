@@ -1,2 +1,13 @@
-# hand-gesture-control-system
-Touchless computer control system using real-time hand gesture recognition built with Python, OpenCV, and MediaPipe. Detects and tracks hand landmarks via webcam to enable gesture-based volume adjustment and media navigation with ~92% recognition accuracy.
+## Hand Gesture Control System
+Touchless computer control using real-time hand gestures.
+
+**Tech Stack:** Python, OpenCV, MediaPipe
+**Accuracy:** ~92% gesture recognition accuracy
+
+## Features
+- Real-time hand landmark detection via webcam
+- Gesture-based volume and media navigation control
+
+## How to Run
+pip install -r requirements.txt
+python gesture_control.py
